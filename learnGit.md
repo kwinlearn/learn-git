@@ -75,3 +75,7 @@ git checkout -- fileName
     a. 文件自从修改后还没有commit到索引(index)，撤销后就回到和版本库一模一样的状态
     b. 已经添加到暂存区后，又作了修改，撤销修改就回到添加到暂存区后的状态
 ```
+#### 本地仓库关联远程仓库
+```
+git remote add origin git@github.com:
+```
