@@ -77,5 +77,40 @@ git checkout -- fileName
 ```
 #### 本地仓库关联远程仓库
 ```
-git remote add origin git@github.com:
+git remote add origin git@github.com:kwinlearn/learn-git.git
+```
+
+
+#### 创建&切换分支
+```
+创建分支
+git branch branchName
+
+切换分支
+git checkout branchName
+
+查看当前分支
+git branch
+
+创建并切换分支
+git checkout -b branchName
+```
+
+#### 合并分支
+```
+将指定分支合并到当前分支
+git merge branchName
+```
+
+#### 删除分支
+```
+git branch -d branchName
+```
+
+#### Git冲突
+```
+Git 使用 <<<<<<< ========== >>>>>>> 标记不同分支的内容
+
+查看分支合并图
+git log --graph
 ```
