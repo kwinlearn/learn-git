@@ -1,7 +1,7 @@
 # Git 常用命令
 #### 创建版本库 (repository)
 ```
-init git
+git init
 ```
 #### 设置用户名及邮箱
 ```
